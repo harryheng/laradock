@@ -586,7 +586,7 @@ services:
       volumes:
         - ${DATA_PATH_HOST}/redis:/data
       ports:
-        - "${REDIS_PORT}:6379"
+        - "${REDIS_PORT}:6380"
       networks:
         - backend
 
